@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  height: 70%;
+  width: 80%;
+  background: linear-gradient(rgb(239, 255, 202), rgb(183 255 38));
+  margin: 1rem auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: inset 1px 1px 20px 20px #a5a5ff59;
+}
+
+.typing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#timer {
+  margin: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.quote-display {
+  width: 70%;
+  height: 70%;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#textarea {
+  width: 60vw;
+  height: 8rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+  background: transparent;
+  padding: 1rem;
+  outline: none;
+  resize: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+#textarea:focus {
+  border-color: black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
